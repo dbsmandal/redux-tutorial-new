@@ -1,11 +1,16 @@
 import React from 'react'
 import './App.css'
-import User from './User'
+// import User from './User'
+import HomeContainer from "./Containers/HomeContainer"
+
 function App() {
 
   return (
     <>
-<User data={{name:"Dipak Mandal",email:"dbsmandal@gmail.com"}}/>    
+    {/* Pratice propos  */}
+{/* <User data={{name:"Dipak Mandal",email:"dbsmandal@gmail.com"}}/>     */}
+
+<HomeContainer/>
     </>
   )
 }
